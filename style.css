@@ -175,4 +175,8 @@ input::placeholder{
 .hover-link:hover{
 color: var(--accent-color);
 }
-  
+ @media screen and (max-width: 620px) {
+    .navbar, .menu,.logo img, .header{
+        width: 100%;
+    }
+   }
