@@ -176,10 +176,13 @@ input::placeholder{
 color: var(--accent-color);
 }
  @media screen and (max-width: 620px) {
-    .navbar, .menu,.logo img, .header{
+    .main,  .h3, .para, .p1, .p, .form{
         width: 100%;
+
     }
    }
+
+
 /*@media screen and (max-width: 600px){
     .para, .para1, .form, .box1 h1{
         font-size: 36px;
