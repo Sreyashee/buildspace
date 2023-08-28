@@ -180,8 +180,8 @@ color: var(--accent-color);
         width: 100%;
     }
    }
-@media screen and (max-width: 600px){
+/*@media screen and (max-width: 600px){
     .para, .para1, .form, .box1 h1{
         font-size: 36px;
         line-height: 50px
-}
+}*/
