@@ -104,28 +104,37 @@ body{
     display: flex;
     justify-items: center;
     align-items: center;
-    margin-bottom: 35px;
+    /*margin-bottom: 35px;*/
+    padding: right;
+      margin: auto;
 }
 .box1{
     width: 650px;
-    margin-left: 130px;
+    /*margin-left: 40px;*/
+    padding: right;
+    margin: auto;
 
 }
-.para, .para1, .form, .box1 h1{
-    padding: 10px 15px;
+.para1, .form, .box1 h1{
+    padding: right;
+    margin: auto;
 }
 
 .para{
+    text-align: center;
+    margin: auto;
     background-color: hsl(154, 43%, 28%);
-    color: hsl(151, 56%, 81%);
+    color: hsl(155, 29%, 92%);
     border-radius: 20px;
     width: 435px;
+    
     margin-left: 40px;
     margin-top: 150px;
 }
 
 .para a{
     color: hsl(250deg, 43%, 83%);
+    text-align: center;
 }
 .box1 h1{
     font-size: 50px;
@@ -176,16 +185,13 @@ input::placeholder{
 color: var(--accent-color);
 }
  @media screen and (max-width: 620px) {
-    .main,  .h3, .para, .p1, .p, .form{
+    .main,  .h3,  .p1, .p, .form{
         width: 100%;
-        margin-left: 20px
-
+      
+    }
+    .para{
+        margin: auto;
+        width: 100%;
     }
    }
 
-
-/*@media screen and (max-width: 600px){
-    .para, .para1, .form, .box1 h1{
-        font-size: 36px;
-        line-height: 50px
-}*/
